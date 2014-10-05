@@ -3,6 +3,10 @@ kitchen-binding
 
 kitchen-binding is an extension to [test-kitchen](https://github.com/test-kitchen/test-kitchen) to allow setting breakpoints in your cookbooks.  When encountered during a converge test-kitchen will then login to an interactive ruby shell for your debugging pleasure.  When you are finished the converge will continue where it left of.  It will continue to pickup any other breakpoints you may have setup through the run as well.
 
+Try It Out
+----------
+Check out what it does with the help of my cookbook [tk-bindings](https://github.com/jmccann/tk-bindings).  Make sure to adhear to the Pre-Setup for Ruby below first.  The other items are already in the .kitchen.yml for tk-bindings.
+
 Pre-Setup
 ---------
 
