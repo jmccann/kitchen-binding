@@ -5,7 +5,7 @@ kitchen-binding is an extension to [test-kitchen](https://github.com/test-kitche
 
 Try It Out
 ----------
-Check out what it does with the help of my cookbook [tk-bindings](https://github.com/jmccann/tk-bindings).  Make sure to adhear to the Pre-Setup for Ruby below first.  The other items are already in the .kitchen.yml for tk-bindings.
+Check out what it does with the help of my cookbook [tk-bindings](https://github.com/jmccann/tk-bindings).  Make sure to adhear to the [Pre-Setup for Ruby](https://github.com/jmccann/kitchen-binding#ruby-version-dependencies) below first.  The other items are already in the .kitchen.yml for tk-bindings.
 
 Pre-Setup
 ---------
