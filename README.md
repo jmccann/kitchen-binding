@@ -72,8 +72,8 @@ gem 'kitchen-binding'
 Then finally you need to add some ERB to your .kitchen.yml to load the library:
 
 ```ruby
-# <% require 'kitchen/binding %>'
-# <% require 'kitchen/binding/base %>'
+# <% require 'kitchen/binding' %>
+# <% require 'kitchen/binding/base' %>
 ```
 
 The above could also be added to your ~/.kitchen/config.yml if you wanted it always available.
