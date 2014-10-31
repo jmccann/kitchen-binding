@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = 'kitchen-binding'
-  gem.version       = '0.1.0'
+  gem.version       = '0.2.0'
   gem.license       = 'Apache 2.0'
   gem.authors       = ['Jacob McCann']
   gem.email         = ['jmcann.git@gmail.com']
