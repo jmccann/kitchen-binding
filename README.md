@@ -1,5 +1,7 @@
 kitchen-binding
 ===============
+[![Gem Version](https://badge.fury.io/rb/kitchen-binding.svg)](https://rubygems.org/gems/kitchen-binding)
+[![Dependency Status](https://gemnasium.com/jmccann/kitchen-binding.svg)](https://gemnasium.com/jmccann/kitchen-binding)
 
 kitchen-binding is an extension to [test-kitchen](https://github.com/test-kitchen/test-kitchen) to allow setting breakpoints in your cookbooks.  When encountered during a converge test-kitchen will then login to an interactive ruby shell for your debugging pleasure.  When you are finished the converge will continue where it left of.  It will continue to pickup any other breakpoints you may have setup through the run as well.
 
