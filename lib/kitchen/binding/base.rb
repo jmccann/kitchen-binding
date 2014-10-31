@@ -29,9 +29,6 @@ module Kitchen
     #
     # @author Jacob McCann <jmccann.git@gmail.com>
     class Base
-      # require 'pry'
-      # binding.pry
-
       # include Configurable # Available in edge test-kitchen
       include Logging
 
