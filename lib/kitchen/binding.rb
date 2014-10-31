@@ -25,15 +25,15 @@ module Kitchen
   #
   # @author Jacob McCann <jmccann.git@gmail.com>
   module Binding
-    # Default provisioner to use
+    # Default binding to use
     DEFAULT_PLUGIN = 'pry_remote'.freeze
 
     # Returns an instance of a binding given a plugin type string.
     #
     # @param plugin [String] a binding plugin type, to be constantized
-    # @param config [Hash] a configuration hash to initialize the provisioner
+    # @param config [Hash] a configuration hash to initialize the binding
     # @return [Binding::Base] a driver instance
-    # @raise [ClientError] if a provisioner instance could not be created
+    # @raise [ClientError] if a binding instance could not be created
     def self.for_plugin(plugin, config)
       require("kitchen/binding/#{plugin}")
 
