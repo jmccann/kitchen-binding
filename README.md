@@ -18,7 +18,9 @@ Currently there is some required pre-setup you will need to do in order to use t
 
 ### Instance Networking
 
-The instance must currently have a 33.33.33.200 IP accessbile from the host as this is currently hardcoded.  This is one of the first things I plan on working to address.
+If you are using vagrant then the instance must currently have a 33.33.33.200 IP accessbile from the host as this is currently hardcoded.  This is one of the first things I plan on working to address.
+
+If you are using Openstack or some other driver it should just work.
 
 #### Vagrant
 If you are using a vagrant driver you will need to have a virtual private newtwork setup on the guest with an IP.  This is a requirement for the default binding plugin 'pry-remote' as pry-remote's dependencies use RPC which eventually uses a random port that you can not dynamically create a port forward for (or atleast not easily).  An idea to make this easier would be to setup a virtual private network for all of your vagrant instances by setting the following in your ~/.kitchen/config.yml

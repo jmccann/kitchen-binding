@@ -129,7 +129,8 @@ module Kitchen
       # @return [String] Binding hostname
       # @api private
       def hostname
-        '33.33.33.200'
+        return '33.33.33.200' if state[:hostname] == '127.0.0.1'
+        state[:hostname]
       end
 
       # String representation of object, reporting its connection details and
