@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = 'kitchen-binding'
-  gem.version       = '0.2.1'
+  gem.version       = '0.2.2'
   gem.license       = 'Apache 2.0'
   gem.authors       = ['Jacob McCann']
   gem.email         = ['jmcann.git@gmail.com']
@@ -16,6 +16,6 @@ Gem::Specification.new do |gem|
   gem.executables   = []
   gem.require_paths = ['lib']
 
-  gem.add_dependency 'test-kitchen', '~> 1.2.1'
+  gem.add_dependency 'test-kitchen', '~> 1.3.1'
   gem.add_dependency 'pry-remote', '~> 0.1.8'
 end
