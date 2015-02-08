@@ -32,7 +32,10 @@ driver:
 ```
 
 ### Ruby Version Dependencies
-The version of uby you use on your host system must match the version of ruby being used by Chef in the instance.  This is ruby 1.9.3-p547 for Chef 11.  This is a requirement because DRB libraries used by 'pry-remote' do not seem compatible across ruby versions.
+The version of uby you use on your host system must match the version of ruby
+being used by Chef in the instance.  This is ruby 1.9.3-p547 for Chef 11 and
+ruby 2.1 for Chef 12.  This is a requirement because DRB libraries used by
+'pry-remote' do not seem compatible across ruby versions.
 
 This can be easily controlled by using a ruby version/environment manager.
 
